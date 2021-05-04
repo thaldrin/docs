@@ -1,0 +1,30 @@
+# Image API
+
+[Thaldrin]'s random Image API is currently only supported in the [Yiff] NPM Module or through direct requests
+
+The **current** base url for ALL requests is `thaldr.in/api/v1/`
+
+## Categories
+To see all available categories, visit `thaldr.in/api/v1/categories`
+
+We currently do not block User-Agents, but we may do so in the future.\
+Make sure to send a proper User-Agent when requesting anything! \
+Something like `Project/version (link to project)`
+
+## Example Code
+```javascript
+import axios from 'axios'
+
+axios({
+	method: "GET",
+	url: `https://thaldr.in/api/v1/categories/${ENDPOINT}`,
+	headers: {
+		"User-Agent": `Project/version (link to project)`,
+		"Authorization": `<Your API Key>`
+	}
+})
+
+```
+
+[Yiff]:https://npm.im/yiff
+[Thaldrin]:https://thaldr.in
