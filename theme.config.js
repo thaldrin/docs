@@ -32,42 +32,18 @@ export default {
         content="Thaldrin - Your Discord Bot for Utility and Fun"
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://docs.thaldr.in/og.png" />
+      <meta name="twitter:image" content="https://docs.thaldr.in/thaldrin-docs.png" />
       <meta name="twitter:site:domain" content="docs.thaldr.in" />
       <meta name="twitter:url" content="https://docs.thaldr.in" />
       <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://docs.thaldr.in/og.png" />
+      <meta name="og:image" content="https://docs.thaldr.in/thaldrin-docs.png" />
       <meta name="apple-mobile-web-app-title" content="Thaldrin" />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-icon-180x180.png"
-      />
+      
       <link
         rel="icon"
         type="image/png"
-        sizes="192x192"
-        href="/android-icon-192x192.png"
+        href="/favicon.png"
       />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="96x96"
-        href="/favicon-96x96.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/favicon-16x16.png"
-      />
-      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    </>
+         </>
   ),
 }
